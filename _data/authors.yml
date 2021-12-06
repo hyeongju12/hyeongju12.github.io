@@ -2,15 +2,15 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              Hyunwoo Kim
-  email:             khw11044@gmail.com
+  name:              hyeongju You
+  email:             hyeongju12@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    풀스택 개발자를 꿈꾸는 AI 대학원생
+    아래와 같이 소개드립니다. 
 
-    Please check my [CV](/public.CV.pdf) to find out for more about me !
+    [>>>> CV <<<<](/public/CV.pdf) &nbsp; 반갑습니다. 잘 부탁드립니다!
 
   # This photo will be used in the about section
   picture:
@@ -24,10 +24,10 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    instagram:       hyunew_dude
-    github:          khw11044
-    email:           mailto:khw11044@gmail.com
-    rss:             https://vvsdleo.github.io
+    instagram:       youhj3987
+    github:          hyeongju12
+    email:           mailto:hyeongju12@gmail.com
+    rss:             https://stackbase.tistory.com/
     # twitter:         <username>
     # facebook:        <username>
     # google:          <number>
@@ -66,24 +66,24 @@ author1:
     # keybase          <username>
 
 # Another author (optional)
-author2:
-  name:              Hyunew park
-  email:             <khw7236@gmail.com>
-  about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+# author2:
+#   name:              Hyunew park
+#   email:             <khw7236@gmail.com>
+#   about:             |
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+#     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 
-  picture:
-    path:            /assets/img/nap.jpg
-    # srcset is optional, but can be used to provide higher res versions for retina displays
-    srcset:
-      1x:            /assets/img/nap.jpg
-      2x:            /assets/img/nap.jpg
+#   picture:
+#     path:            /assets/img/nap.jpg
+#     # srcset is optional, but can be used to provide higher res versions for retina displays
+#     srcset:
+#       1x:            /assets/img/nap.jpg
+#       2x:            /assets/img/nap.jpg
 
-  social:
-    instagram:       hyunew_dude
-    github:          khw11044
-    email:           mailto:khw11044@gmail.com
-    rss:             https://vvsdleo.github.io
+#   social:
+#     instagram:       hyunew_dude
+#     github:          khw11044
+#     email:           mailto:khw11044@gmail.com
+#     rss:             https://vvsdleo.github.io
