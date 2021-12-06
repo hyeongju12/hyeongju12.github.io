@@ -1,6 +1,6 @@
-# from khw11044's Github Pages
+# from hyeongju12's Github Pages
 
-<https://khw11044.github.io>
+<https://hyeongju12.github.io>
 
 ---
 Powered By [Hydejack-Starter-Kit](https://github.com/hydecorp/hydejack-starter-kit)
