@@ -58,7 +58,7 @@ menu:
     url:               /study/
     submenu:
       - title:         Programming
-        url:           /proramming/
+        url:           /programming/
       - title:         DataScience
         url:           /datascience/
       - title:         Paper

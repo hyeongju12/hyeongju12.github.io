@@ -126,7 +126,23 @@ background-color: rgb(21, 21, 21);
   text-align: left;
   margin-left: 30%;
 }
-
+.submenu.menu-wrapper{
+  right: 10%;
+  position: sticky;
+  background-color: rgb(34,31,32);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  width: 10rem;
+  height: 10rem;
+  z-index: 2;
+  ul{
+  margin: 0;
+  padding: 0 1.25rem;
+  }
+}
+.submenu.menu-wrapper.hide{
+display: none;
+}
 
 // for my collapsible
 .collapsible-title:hover {
@@ -354,4 +370,39 @@ u{
 .sidebar-social {
   margin-top: 10px !important;
   margin-bottom: 15px;
+}
+
+
+.page-control {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+.page-control > div {
+  max-width: 50%;
+  }
+.button {
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color:#ffffff;
+  border-radius:16px;
+  border:3px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#575252;
+  font-family:Arial;
+  font-size:18px;
+  font-weight:bold;
+  padding:6px 100px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+}
+.button:hover {
+background:linear-gradient(to bottom, hsl(0, 0%, 100%) 5%, #ffffff 100%);
+background-color:#f6f6f6;
+}
+.button:active {
+position:relative;
+top:1px;
 }
