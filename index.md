@@ -6,6 +6,7 @@ description: >
 hide_description: false
 ---
 # About Me
+---
 <!--author-->
 안녕하세요. 유형주입니다.<br>
 삼성멀티캠퍼스 Data Science & Engineering(8회차) 수료한 초보개발자입니다.<br>
