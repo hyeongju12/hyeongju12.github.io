@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: http://hyeongju12.github.io/sitemap.xml
+User-agent: *
+Disallow: /
+User-agent: Yeti
+Disallow: /hello/
