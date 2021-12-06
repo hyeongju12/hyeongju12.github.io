@@ -1,0 +1,357 @@
+@import "reset.scss";
+.dl-table {
+  a {
+    @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+      text-underline-offset: .7rem;
+    }
+    @supports not ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+      padding-bottom: .3rem;
+    }
+  }
+
+
+.btn, .gumroad-button  {
+    margin: 1rem 0;
+  }
+}
+
+// 게시물 안에 링크 스타일
+.markdown-body > p > a{
+font-weight: bold !important;
+color: rgb(3,102,214) !important;
+}
+.markdown-body > li> p > a{
+font-weight: bold !important;
+color: rgb(3,102,214) !important;
+}
+.markdown-body >blockquote> p > a{
+font-weight: bold !important;
+color: rgb(3,102,214) !important;
+}
+
+.markdown-body {
+    kbd {
+           font-family: monospace;
+           font-size: 15px;
+           color: #555;
+           background-color: #fcfcfc;
+           border: solid 1px #ccc;
+           border-bottom-color: #bbb;
+           border-radius: 3px;
+           box-shadow: inset 0 -1px 0 #bbb;
+           padding: 3px 5px;
+     }
+    mark {
+          padding: 3px 5px;
+          background-color: #FFF9C4;
+          font-family: 'Merriweather-Light','Lato','-applesystem','Verdana','PingFang SC','Helvetica Neue','Arial','Hiragino Sans GB','M
+          icrosoft YaHei','WenQuanYi Micro Hei','sans-serif';
+          font-weight: 500;
+          color: #4f86aa;
+          border-radius: 3px;
+    }
+    under {
+          text-decoration: underline;
+          text-decoration-color: red !important;
+          text-underline-position:under;
+          padding-bottom : 2px;
+    }
+}
+
+// 링크 밑줄
+.content a:not(.btn):not(.no-hover) {
+text-decoration-color: rgba(79,177,186,0.5); // rgba(79,177,186,0.5)
+}
+
+
+code{
+// background-color: #ffffe9;
+background-color: rgb(251,232,201);
+border-radius: 5px;
+}
+pre > code {
+font-size: 1.1em !important;
+}
+.highlight {
+color: rgb(201,201,201) !important;
+background-color: rgb(21, 21, 21);
+}
+
+// for swiper
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after{
+  color: #64ADFF;
+}
+.swiper-button-prev:hover::after, .swiper-button-next:hover::after{
+  color: #007AFF;
+}
+
+// 메뉴
+.spread-btn{
+  right: 15%;
+  position: absolute;
+  padding: 0;
+  padding-top: 2px;
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+  z-index: 1;
+}
+.menu-wrapper {
+  text-align: left;
+  margin-left: 30%;
+}
+
+
+// for my collapsible
+.collapsible-title:hover {
+  cursor: pointer;
+
+  #section > span{
+    text-shadow: 2px 2px 2px gray;
+  }
+}
+.collapsible-body[open]{
+  display: block;
+}
+.collapsible-body{
+  display: none;
+}
+
+.collapsible-mark{
+  display: inline-block;
+  width: 30px;
+}
+
+// for my class
+.collapsible-body > p > img{
+
+  padding: 5% 4%;
+}
+
+.ps-problem-img:hover{
+  opacity: 0.5;
+}
+
+a::after{
+  display: block;
+}
+
+// custom hydejack
+.figcaption img {
+  width: 100%;
+}
+
+// for top-menu
+.top-menu-wrapper{
+  display: inline-block;
+}
+.top-menu{
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.top-menu.nav-btn{
+  border: none;
+  display: inline-flex;
+  width: 500px;
+  margin-left: -1px;
+}
+
+// 상단 메뉴바 옵션, 스타일
+.navbar.fixed-top>.content::before {
+  bottom: 1px;
+}
+
+.navbar>.content {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 0;
+  max-height: 5rem;
+}
+
+.navbar>.content::before {
+content: "";
+position: absolute;
+display: block;
+width: calc(100% - 6rem);
+height: 5rem;
+left: 1rem;
+margin: auto;
+box-shadow: 0 0 2rem rgb(255, 255, 255); // gray
+z-index: -1;
+}
+
+.nav-btn, .nav-btn-bar{
+  height: 3rem;
+}
+
+.nav-btn:hover,.nav-btn:focus{
+  color: grey;
+  background-color: rgba(0,0,0,0.05);
+}
+
+.nav-span{
+  flex: none;
+}
+
+// for underline u tag
+u{
+  text-decoration: none;
+  font-weight: bold;
+  background: linear-gradient(180deg,rgba(240, 20, 20, 0) 50%, #fbe8c9 50%);
+}
+
+// for katex maths
+.katex-display{
+  // 투명
+  background-color: transparent !important;
+}
+
+
+
+// time-line
+
+.list-lead{
+  margin-bottom: 0;
+}
+.list-lead::after{
+  content:"";
+  display:block;
+  position: relative;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  top: -21px;
+  left: 62px;
+  // border: 3px solid;
+
+  background-color: lightgrey;
+  z-index: 1;
+}
+.list-post li {
+  line-height: 3rem;
+}
+.list-post > ul > li:first-child::before, .list-post > ul > li::after{
+  content: "";
+  width: 4px;
+  left: 66px;
+  display: inline-block;
+  float: left;
+  position: relative;
+  background-color: lightgrey;
+}
+.list-post > ul > li > div{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.list-post > ul > li > div > a{
+  margin-left: 1.5rem;
+  position: relative;
+}
+.list-post > ul > li > div > a::before{
+  content: "";
+  display: inline-block;
+  position: relative;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  float: left;
+  top: 1.35rem;
+  left: 60px;
+  box-shadow: 0 0 5px 0 grey;
+  background-color: white;
+  z-index: 1;
+
+  transition: all 0.5s;
+}
+.list-post > ul > li > div > a:hover::before{
+  background-color: lightgrey;
+  margin-right: 0.3rem;
+  box-shadow: 0 0 2px 0 grey;
+}
+.list-post > ul > li:first-child::before{
+  height: 3.0rem;
+  top: -1.5rem;
+}
+.list-post > ul > li:not(:last-child)::after{
+  height: 3.3rem;
+  top: -1.3rem;
+}
+.list-post ul:not(:last-child)>li:last-child::after{
+  height: 5.2rem;
+  top: -1.3rem;
+}
+
+.list-post .related-posts>li+li{
+  margin-top: 0;
+}
+.list-post li.h6{
+  margin-top: 0;
+}
+
+// scrollbar
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 3px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: lightgrey;
+  border-radius: 0;
+}
+*::-webkit-scrollbar-thumb:hover{
+  background-color: rgb(173, 173, 173);
+}
+*::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+
+// profile avatar image
+.content .avatar {
+  float: right !important;
+  box-sizing: content-box;
+  border: 1rem solid var(--body-bg);
+  transition: border-color 1s ease;
+  margin-top: 5px !important;
+  margin-left: 5px !important;
+}
+
+// profile 저자 설명
+.author-body-description {
+  margin-left: 20px !important;
+  margin-top: 20px !important;
+}
+
+// 소셜바
+.sidebar-social {
+  margin-top: 10px !important;
+  margin-bottom: 15px;
+}
