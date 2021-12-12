@@ -10,7 +10,7 @@ hide_description: true
 유형주
 
 MAJOR :
-Korean University
+Ajou University
 145, Anam-ro, Seongbuk-gu, Seoul, Republic of Korea
 
 ## Personal Data
