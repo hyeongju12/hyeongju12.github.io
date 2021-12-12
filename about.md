@@ -67,7 +67,7 @@ hide_description: true
 <br>
 
 ## Awards
-|구분|주관|입상내역|
+|<center>구분</center>|<center>주관</center>|<center>입상내역</center>|
 |:---:|:---:|:--------------------:|
 |1|삼성멀티캠퍼스|프로젝트 경진대회 최우수상 🥇|
 
@@ -77,7 +77,8 @@ hide_description: true
 <br>
 
 ## Work Experiences
-|구분|기간|직장명|직책|업무내용|
+
+|<center>구분</center>|<center>기간</center>|<center>직장명</center>|<center>직책</center>|업무내용|
 |:-----:|:-----:|:-----:|:-----:|:----------------|
 |1|2014 ~ 2021|해군|정보통신장교|전산 시스템 관리 업무, 정보체계 도입사업 관리자, 통신 사업 담당|
 
