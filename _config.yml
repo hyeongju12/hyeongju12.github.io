@@ -54,19 +54,19 @@ menu:
     url:               /posts/
   - title:             Project
     url:               /project/
-  # - title:             Portfolio
-  #   url:               /portfolio/
-  # - title:             Study
-  #   url:               /study/
-  #   submenu:
-  #     - title:         Programming
-  #       url:           /programming/
-  #     - title:         DataScience
-  #       url:           /datascience/
-  #     - title:         Paper
-  #       url:           /paper/
-  #     - title:         Review
-  #       url:           /review/
+   - title:             Portfolio
+     url:               /portfolio/
+   - title:             Study
+     url:               /study/
+     submenu:
+       - title:         Programming
+         url:           /programming/
+       - title:         DataScience
+         url:           /datascience/
+       - title:         Paper
+         url:           /paper/
+       - title:         Review
+         url:           /review/
  
 
 # Add links to the footer.
